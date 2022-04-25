@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Oxygen&family=Raleway:wght@100;200&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  background-image: url("https://www.whats-on-netflix.com/wp-content/uploads/2022/03/best-new-movies-added-to-netflix-this-week-march-12th-2022.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: midnightblue;
+}
+
+header h1 {
+  color: white;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+header input {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+header button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+main div {
+  margin: 20px 20px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+main img {
+  width: 200px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 1px 1px 10px 1px white;
+}
+
+main h1 {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+main h1:hover {
+  color: yellow;
+}
+
+footer {
+  color: white;
+  background-color: midnightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-weight: 700;
+}
+
+footer span {
+  font-size: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.ul{
+  background-color: white;
+  color: black;
+  border: none;
+  list-style-type: none;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.ul li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

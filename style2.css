@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Oxygen&family=Raleway:wght@100;200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+}
+
+body{
+    background-image: url("https://www.phoneworld.com.pk/wp-content/uploads/2020/10/seo-watch-free-link-preview.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: midnightblue;
+    flex-grow: 0;
+}
+
+header h1 {
+    color: white;
+    margin: 10px 0px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+header input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div {
+    margin: 10px;
+}
+
+main img{
+    height: 600px;
+    border-radius: 20px;
+    margin: 50px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 5px white;
+}
+
+main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    color:yellow;
+}
+
+main h1.naslov:hover {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.castseason {
+    border: none;
+    border-radius: 10px;
+}
+
+section {
+    margin: 70px 70px;
+    font-size: 20px;
+}
+
+footer{
+    color: white;
+    background-color:midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 700;
+    flex-grow: 0;    
+}
+
+footer span {
+    font-size: 10px;
+}
+
+.sezone{
+    color: white;
+}
+
+.sezone h1 {
+    color: yellow;
+    text-align: left;
+}
+
+.sezone p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.uloge{
+    color: white;
+}
+
+.uloge h1 {
+    color: yellow;
+    text-align: left;
+}
+
+.uloge p {
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.details {
+    color: white;
+}
+
+.details h2{
+    color: yellow;
+    margin-bottom: 20px;
+}
+.details p {
+    font-size: 18px;
+}
